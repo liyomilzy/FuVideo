@@ -1,0 +1,13 @@
+# Verified with Python 3.10 + CUDA 11.8 (install torch/torchvision matching YOUR CUDA version first)
+torch>=2.1.0
+torchvision>=0.16.0
+diffusers>=0.25.0
+transformers>=4.37.0
+accelerate>=0.27.0
+einops>=0.7.0
+imageio>=2.34.0
+imageio-ffmpeg>=0.4.9
+opencv-python>=4.9.0
+numpy>=1.26.0
+Pillow>=10.2.0
+safetensors>=0.4.0

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Model checkpoints / cache
+*.safetensors
+*.ckpt
+*.pth
+models/
+
+# Generated outputs
+*.mp4
+*.gif
+*.png
+*.jpg
+outputs/
+experiments/
+temporal/
+*_frames/
+
+# OS / editor
+.DS_Store
+*.tmp
+.ipynb_checkpoints/
