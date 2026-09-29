@@ -97,12 +97,12 @@ python main.py \
 
 ```
 main.py                     # CLI entry point (the only runnable script)
-text_to_video_pipeline.py   # FuVideoPipeline: mixed sampling, embedding
-                            #   interpolation, noise-space frame interpolation
 utils.py                    # Attention processors + video I/O utilities
 model/
-  __init__.py               # Package init (re-exports Model)
+  __init__.py               # Package init (re-exports Model, FuVideoPipeline)
   model.py                  # Model wrapper: loading, text2video interface
+  text_to_video_pipeline.py # FuVideoPipeline: mixed sampling, embedding
+                            #   interpolation, noise-space frame interpolation
 llm_prompt_designer.md      # Design doc for the LLM that produces semantic_points
 system_prompt_for_paper_en.txt  # The LLM system prompt (English)
 ```

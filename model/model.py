@@ -4,7 +4,7 @@ import gc
 import logging
 
 from diffusers.schedulers import DDIMScheduler
-from text_to_video_pipeline import FuVideoPipeline
+from .text_to_video_pipeline import FuVideoPipeline
 
 import utils
 import os
