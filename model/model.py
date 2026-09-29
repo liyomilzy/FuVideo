@@ -6,7 +6,7 @@ import logging
 from diffusers.schedulers import DDIMScheduler
 from .text_to_video_pipeline import FuVideoPipeline
 
-import utils
+from . import utils
 import os
 
 on_huggingspace = os.environ.get("SPACE_AUTHOR_NAME") == "PAIR"

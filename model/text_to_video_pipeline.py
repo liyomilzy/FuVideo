@@ -27,7 +27,7 @@ import PIL
 import numpy as np
 
 # 导入SDXL兼容的处理器 - 修改这里支持ProgressiveConsistencyProcessor
-from utils import  SDXLTextConsistencyProcessor,SDXLCausalAttnProcessor,SelectiveConsistencyProcessor
+from .utils import SDXLTextConsistencyProcessor,SDXLCausalAttnProcessor,SelectiveConsistencyProcessor
 # 新增：导入序列对齐工具
 
 try:
