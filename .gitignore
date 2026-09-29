@@ -21,6 +21,9 @@ experiments/
 temporal/
 *_frames/
 
+# Logs
+*.log
+
 # OS / editor
 .DS_Store
 *.tmp
